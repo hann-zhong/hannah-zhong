@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&family=Reenie+Beanie&display=swap');
+
+* {
+    font-family: 'Quicksand';
+}
+
+h1 {
+    font-family: 'Reenie Beanie';
+}

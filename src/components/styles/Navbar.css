@@ -1,0 +1,15 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 60vw;
+    top: 0;
+    margin-left: 20vw;
+}
+
+.nav-text {
+    flex: 1;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 48px;
+}
