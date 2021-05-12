@@ -6,4 +6,10 @@
 
 h1 {
     font-family: 'Reenie Beanie';
+    font-size: 64px;
+    margin-bottom: 0;
+}
+
+p {
+    line-height: 32px;
 }

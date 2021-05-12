@@ -1,14 +1,16 @@
 .navbar {
     display: flex;
     flex-direction: row;
-    align-items: center;
-    width: 60vw;
+    width: 100vw;
     top: 0;
-    margin-left: 20vw;
+    position: sticky;
+    background-color: white;
+    padding-left: 22.5vw;
+    padding-bottom: 10px;
 }
 
 .nav-text {
-    flex: 1;
+    flex: 0.1;
     justify-content: space-between;
     text-align: center;
     margin-top: 48px;

@@ -1,6 +1,6 @@
 import React from 'react';
-import './styles/Text.css';
-import './styles/global.css'
+import '../styles/Text.css';
+import '../styles/global.css'
 
 interface TextProps {
   text: string;
@@ -9,8 +9,9 @@ interface TextProps {
 
 function Text(props:TextProps) : JSX.Element {
     const { text, heading } = props;
+
     return (
-        <div className='textBlock'>
+        <div className='text-container'>
             <h1>{heading}</h1>
             <p>{text}</p>
         </div>

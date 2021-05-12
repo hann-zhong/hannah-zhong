@@ -1,0 +1,8 @@
+.block {
+    display: flex;
+    flex-direction: row;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-top: 7.5vw;
+    height: 1000px;
+}

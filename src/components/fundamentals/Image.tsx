@@ -1,6 +1,7 @@
 import React from 'react';
-import './styles/Image.css';
-import './styles/global.css'
+import '../styles/Image.css';
+import '../styles/global.css'
+
 
 interface ImageProps {
   url: string;
@@ -9,10 +10,11 @@ interface ImageProps {
 
 function Image(props:ImageProps) : JSX.Element {
     const { url, alt } = props;
+    
     return (
-        <div>
-            <img src={url} alt={alt}></img>
-        </div>
+      <div className='img-container'>
+        <img src={url} alt={alt}></img>
+      </div>
     );
 }
 

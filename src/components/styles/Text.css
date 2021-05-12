@@ -1,4 +1,6 @@
-.textBlock {
-    margin-right: 100px;
+.text-container {
+    width: 32vw;
     margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 32px;
 }
