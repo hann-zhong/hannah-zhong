@@ -12,7 +12,7 @@ function Image(props:ImageProps) : JSX.Element {
     const { url, alt } = props;
     
     return (
-      <div className='img-container'>
+      <div className='image-container'>
         <img src={url} alt={alt}></img>
       </div>
     );

@@ -10,7 +10,6 @@ interface LayoutProps {
 function Layout(props:LayoutProps) : JSX.Element {
     return (
         <>
-        <Navbar />
             <div>
                 {props.children}
             </div>

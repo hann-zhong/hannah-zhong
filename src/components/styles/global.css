@@ -13,3 +13,12 @@ h1 {
 p {
     line-height: 32px;
 }
+
+.block {
+    display: flex;
+    flex-direction: row;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-bottom: 300px;
+    margin-top: 7.5vw;
+}

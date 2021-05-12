@@ -1,0 +1,17 @@
+.about-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-row {
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px;
+    margin-top: 32px;
+}
+
+.copy-text {
+    font-size: 12px;
+    text-align: center;
+    line-height: 12px;
+}
