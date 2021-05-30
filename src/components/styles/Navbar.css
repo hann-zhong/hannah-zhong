@@ -8,10 +8,21 @@
     padding-left: 22.5vw;
     padding-bottom: 10px;
 }
-
-.nav-text {
-    flex: 0.1;
+.nav-links {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    flex: 0.5;
     justify-content: space-between;
     text-align: center;
-    margin-top: 48px;
+    margin-top: 32px;
+}
+
+.nav-links a{  
+    text-decoration: none; 
+    color: #1C2E43;   
+}
+
+.nav-links a:hover{  
+    text-decoration: underline;   
 }

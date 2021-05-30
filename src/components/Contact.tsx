@@ -13,21 +13,25 @@ function Contact() : JSX.Element {
     return (
         <Layout>
             <>
-            <div className='block' style={{marginBottom: '100px'}}>
+            <div id='contact' className='block' style={{marginBottom: '100px'}}>
                 <div className='about-col'>
                     <Text 
                         heading={'miss me already? catch me on: '}
                         text={''} 
                     />
                     <div className='about-row'>
-                        <Image 
-                            url={github} 
-                            alt={'placeholder'} 
-                        />
-                        <Image 
-                            url={linkedin} 
-                            alt={'placeholder'} 
-                        />
+                        <a href='https://github.com/hann-zhong' target='blank'>
+                            <Image
+                                url={github} 
+                                alt={'placeholder'}
+                            />
+                        </a>
+                        <a href='https://www.linkedin.com/in/hannah-z-113910191/' target='blank'>
+                            <Image 
+                                url={linkedin} 
+                                alt={'placeholder'} 
+                            />
+                        </a>
                     </div>
                 </div>
                 <Image 

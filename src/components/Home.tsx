@@ -14,7 +14,7 @@ function Home(): JSX.Element {
      
     return (
         <Layout>
-            <div className='block'>
+            <div id='home' className='block'>
                 <Text 
                     heading={'hello there, i\'m hannah zhong.'}
                     text={homeText} 

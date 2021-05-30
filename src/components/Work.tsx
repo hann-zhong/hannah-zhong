@@ -12,7 +12,7 @@ function Work() : JSX.Element {
     const workText = 'some cool places i\'ve been';
     return (
         <Layout>
-            <div className='block'>
+            <div id='work' className='block'>
                 <Text 
                     heading={'work.'}
                     text={workText} 

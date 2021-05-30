@@ -13,7 +13,7 @@ function About() : JSX.Element {
     
     return (
         <Layout>
-            <div className='block'>
+            <div id='about' className='block'>
                 <Image 
                     url={img} 
                     alt={'placeholder'} 

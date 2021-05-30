@@ -6,11 +6,23 @@ import './styles/global.css'
 function Navbar(): JSX.Element {
     return (
         <div className='navbar'>
-            <p className='nav-text'>home</p>
-            <p className='nav-text'>about</p>
-            <p className='nav-text'>work</p>
-            <p className='nav-text'>projects</p>
-            <p className='nav-text'>contact</p>
+            <ul className='nav-links'>
+                <li><a href='#home'>
+                    home
+                </a></li>
+                <li><a href='#about'>
+                    about
+                </a></li>
+                <li><a href='#work'>
+                    work
+                </a></li>
+                <li><a href='#projects'>
+                    projects
+                </a></li>
+                <li><a href='#contact'>
+                    contact
+                </a></li>
+            </ul>
         </div>
     );
 }

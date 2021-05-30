@@ -12,7 +12,7 @@ function Projects() : JSX.Element {
     const projectsText = 'some cool things i\'ve made';
     return (
         <Layout>
-            <div className='block'>
+            <div id='projects' className='block'>
                 <Image 
                     url={img} 
                     alt={'placeholder'} 
