@@ -9,9 +9,8 @@ import img from '../assets/placeholder.png';
 
 function Work() : JSX.Element {
 
-    const workText = 'I\'ve been fortunate enough to have the opportunities to work at some ' +
-    'amazing places with some even more amazing people. I\'ve delivered impactful products, ' +
-    'collaborated with a diverse group of people, and never once had to get coffee! These experiences have truly shaped my path as an engineer.';
+    const workText = 'In the past, I\'ve gotten to work with diverse groups of people while delivering impactful products. ' +
+    'You know, making cool things with computers and stuff. Here\'s where I\'ve worked:';
     return (
         <Layout>
             <div id='work' className='block'>

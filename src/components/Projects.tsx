@@ -9,9 +9,9 @@ import img from '../assets/placeholder.png';
 
 function Projects() : JSX.Element {
 
-    const projectsText = 'For me, code is a great medium to express imagination, ' +
+    const projectsText = 'Code is a great medium to express imagination; ' +
     'it combines problem solving and creativity in the best of ways. From Star Wars-esque simulations to ' +
-    'genome analyzers, my imagination can get pretty wild. Check out my work below!';
+    'science-y tools, my imagination can get pretty wild. Check out my work below!';
     return (
         <Layout>
             <div id='projects' className='block'>
