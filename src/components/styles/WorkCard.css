@@ -1,0 +1,54 @@
+.workBkgd {
+    background-color: #FDFBF2;
+    width: 60vw;
+    margin-left: 200px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 34px;
+}
+
+.compBkgd {
+    width: 18vw;
+    border-radius: 10px;
+    margin-top: 2.5vw;
+    margin-left: 36px;
+    margin-right: 36px;
+    margin-bottom: 2.5vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.companyName {
+    font-size: 24px;
+    letter-spacing: 5px;
+    font-weight: 300;
+    margin-left: 1.5vw;
+    margin-bottom: 6vw;
+}
+
+.workInfo {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1.5vw;
+    font-size: 14px; 
+    line-height: 0px;
+}
+
+.workCard {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1vw;
+    font-size: 20px;
+}
+
+.workDesc {
+    display: flex;
+    flex-direction: column;
+    line-height: 24px;
+    width: 35vw;
+}
+
+.workDescItems {
+    margin-bottom: 8px;
+}
