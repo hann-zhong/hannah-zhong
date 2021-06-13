@@ -1,7 +1,7 @@
 .projBody {
     display: flex;
     flex-direction: column;
-    margin: -100px 100px 350px 100px;
+    margin: -100px 0px 350px 200px;
 }
 
 .grid-container {
@@ -9,8 +9,6 @@
     grid-template-columns: 25% 25% 25% 25%;
     grid-gap: 1em 1em;
     width: 80%;
-    padding-left: 7vw;
-    padding-right: 10vw;
 }
 
 .grid-item {
@@ -30,7 +28,7 @@
 .item2 {
     grid-row: 1;
     grid-column: 3 / span 2;
-    color: #1C2E43;
+    color: #F2F2F2;
 }
 
 .item3 {
@@ -47,10 +45,9 @@
 .item5 {
     grid-row: 3;
     grid-column: 1 / span 4;
-    height: 200px;
-    color: #F2F2F2;
+    color: #1C2E43;
 }
 
-.item5 a {
+.item2 a {
     color: #F2F2F2;
 }

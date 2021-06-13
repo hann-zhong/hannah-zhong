@@ -41,7 +41,7 @@ function Projects() : JSX.Element {
                             <ProjectCard
                                 name={'a galaxy far, far away↗︎'}
                                 desc={'Pilot your own starship and explore a fantasy solar system! (JavaScript)'}
-                                color={'#84E2DB'}
+                                color={'#414C72'}
                                 link={'https://github.com/hann-zhong/a-galaxy-far-far-away'}
                             />
                         </div>
@@ -66,7 +66,7 @@ function Projects() : JSX.Element {
                                 name={'snp analyzer↗︎'}
                                 desc={'Genomics tool that parses a user-inputted DNA segment and determines if a single nucleotide polymorphism is a silent mutation' + 
                                     'or if it results in a different amino acid. (Java)'}
-                                color={'#414C72'}
+                                color={'#84E2DB'}
                                 link={'https://github.com/hann-zhong/snp-analyzer'}
                             />
                         </div>
