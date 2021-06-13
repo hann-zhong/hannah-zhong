@@ -1,17 +1,21 @@
 import React, { useEffect, useState } from 'react';
-import './styles/ProjectCard.css';
-import './styles/global.css';
+import '../styles/ProjectCard.css';
+import '../styles/global.css';
 
 interface ProjectCardProps {
-    width: number;
-    height: number;
     name: string
+    desc: string
+    color: string
+    link: string
 }
 
 function ProjectCard(props:ProjectCardProps) : JSX.Element {
-    const {width, height, name} = props;
+    const { name, desc, color, link } = props;
     return (
-        <div>{name}</div>
+        <div className='card' style={{backgroundColor: color, height: 250}}>
+            <a href={link} className='projName'>{name}</a>
+            <p className='projDesc'>{desc}</p>
+        </div>
     );
 }
 

@@ -1,0 +1,25 @@
+.projDesc {
+    margin-left: 30px;
+    margin-right: 40px;
+    line-height: 24px;
+}
+
+.projName {
+    font-size: 22px;
+    margin-left: 30px; 
+    line-height: 25px;
+    letter-spacing: 3px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.card {
+    padding-top: 20px;
+}
+
+
+
+
+

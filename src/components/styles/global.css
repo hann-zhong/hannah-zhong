@@ -22,3 +22,7 @@ p {
     margin-bottom: 300px;
     margin-top: 7.5vw;
 }
+
+a {
+    text-decoration: none;
+}
