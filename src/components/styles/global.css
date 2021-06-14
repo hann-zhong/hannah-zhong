@@ -17,9 +17,9 @@ p {
 .block {
     display: flex;
     flex-direction: row;
-    margin-right: 100px;
-    margin-left: 100px;
-    margin-bottom: 300px;
+    margin-right: 80px;
+    margin-left: 80px;
+    margin-bottom: 250px;
     margin-top: 7.5vw;
 }
 

@@ -19,6 +19,7 @@ function About() : JSX.Element {
                 <Image 
                     url={img} 
                     alt={'placeholder'} 
+                    l={450}
                 />
                 <Text 
                     heading={'about.'}

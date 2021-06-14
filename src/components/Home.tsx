@@ -5,7 +5,7 @@ import Image from './fundamentals/Image';
 import './styles/Home.css';
 import './styles/global.css';
 
-import img from '../assets/placeholder.png';
+import img from '../assets/panel0.jpg';
 
 function Home(): JSX.Element {
 
@@ -21,7 +21,8 @@ function Home(): JSX.Element {
                 />
                 <Image 
                     url={img} 
-                    alt={'placeholder'} 
+                    alt={'panel 0'} 
+                    l={450}
                 />
             </div>
         </Layout>

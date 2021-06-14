@@ -1,12 +1,13 @@
 .about-col {
     display: flex;
     flex-direction: column;
+    margin-right: -100px;
 }
 
 .about-row {
     display: flex;
     flex-direction: row;
-    margin-left: 100px;
+    margin-left: 80px;
     margin-top: 32px;
 }
 

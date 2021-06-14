@@ -22,7 +22,8 @@ function Work() : JSX.Element {
                     />
                     <Image 
                         url={img} 
-                        alt={'placeholder'} 
+                        alt={'placeholder'}
+                        l={450} 
                     />
                 </div>
                 <div className='workBody'>

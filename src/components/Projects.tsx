@@ -23,7 +23,8 @@ function Projects() : JSX.Element {
                     />
                     <Image 
                         url={img} 
-                        alt={'placeholder'} 
+                        alt={'placeholder'}
+                        l={450} 
                     />
                 </div>
 
@@ -31,7 +32,7 @@ function Projects() : JSX.Element {
                     <div className='grid-container'>
                         <div className='grid-item item1'>
                             <ProjectCard
-                                name={'spooks↗︎'}
+                                name={'👻 spooks↗︎'}
                                 desc={'A basic 2D top-down shooter game where the user plays as a powerful wizard who must fight and ward off dangerous ghosts. (Unity/C#)'}
                                 color={'#F8F3D4'}
                                 link={'https://github.com/hann-zhong/spooks'}
@@ -39,7 +40,7 @@ function Projects() : JSX.Element {
                         </div>
                         <div className='grid-item item2'>
                             <ProjectCard
-                                name={'a galaxy far, far away↗︎'}
+                                name={'🚀 a galaxy far, far away↗︎'}
                                 desc={'Pilot your own starship and explore a fantasy solar system! (JavaScript)'}
                                 color={'#414C72'}
                                 link={'https://github.com/hann-zhong/a-galaxy-far-far-away'}
@@ -47,7 +48,7 @@ function Projects() : JSX.Element {
                         </div>
                         <div className='grid-item item3'>
                             <ProjectCard
-                                name={'stock predictor↗︎'}
+                                name={'💸 stock predictor↗︎'}
                                 desc={'Predicting stock prices with multiple linear regression. (Python/Jupyter Notebook)'}
                                 color={'#FFE69B'}
                                 link={'https://github.com/hann-zhong/stock-predictor'}
@@ -55,15 +56,15 @@ function Projects() : JSX.Element {
                         </div>
                         <div className='grid-item item4'>
                             <ProjectCard
-                                name={'goober eats'}
+                                name={'🍔 goober eats'}
                                 desc={'Mock food delivery logistics engine that provides point-by-point routing for the Greater Los Angeles area. (C++)'}
-                                color={'#EB8C8C'}
-                                link={''}
+                                color={'#EB9B9B'}
+                                link={'https://github.com/hann-zhong'}
                             />
                         </div>
                         <div className='grid-item item5'>
                             <ProjectCard
-                                name={'snp analyzer↗︎'}
+                                name={'🧬 snp analyzer↗︎'}
                                 desc={'Genomics tool that parses a user-inputted DNA segment and determines if a single nucleotide polymorphism is a silent mutation' + 
                                     ' or if it results in a different amino acid. (Java)'}
                                 color={'#9DE9E3'}

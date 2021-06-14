@@ -24,19 +24,22 @@ function Contact() : JSX.Element {
                             <Image
                                 url={github} 
                                 alt={'placeholder'}
+                                l={48}
                             />
                         </a>
                         <a href='https://www.linkedin.com/in/hannah-z-113910191/' target='blank'>
                             <Image 
                                 url={linkedin} 
                                 alt={'placeholder'} 
+                                l={48}
                             />
                         </a>
                     </div>
                 </div>
                 <Image 
                     url={img} 
-                    alt={'placeholder'} 
+                    alt={'placeholder'}
+                    l={450} 
                 />
             </div>
             <hr style={{width: '80vw', marginBottom: '24px'}}></hr>
