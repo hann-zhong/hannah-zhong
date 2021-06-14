@@ -55,18 +55,18 @@ function Projects() : JSX.Element {
                         </div>
                         <div className='grid-item item4'>
                             <ProjectCard
-                                name={'goober eats↗︎'}
+                                name={'goober eats'}
                                 desc={'Mock food delivery logistics engine that provides point-by-point routing for the Greater Los Angeles area. (C++)'}
                                 color={'#EB8C8C'}
-                                link={'https://github.com/hann-zhong'}
+                                link={''}
                             />
                         </div>
                         <div className='grid-item item5'>
                             <ProjectCard
                                 name={'snp analyzer↗︎'}
                                 desc={'Genomics tool that parses a user-inputted DNA segment and determines if a single nucleotide polymorphism is a silent mutation' + 
-                                    'or if it results in a different amino acid. (Java)'}
-                                color={'#84E2DB'}
+                                    ' or if it results in a different amino acid. (Java)'}
+                                color={'#9DE9E3'}
                                 link={'https://github.com/hann-zhong/snp-analyzer'}
                             />
                         </div>

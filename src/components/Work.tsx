@@ -55,7 +55,18 @@ function Work() : JSX.Element {
                         dates={'June - Aug. 2020'}
                         position={'Software Engineer Intern'}
                         desc1={'Implented RESTful APIs to extract and manipulate relational database information. Modified functions to support additional business logic.'}
-                        desc2={'Wrote unit tests with 100% code coverage and service automation scripts.'}
+                        desc2={'Wrote service automation scripts and unit tests with 100% code coverage.'}
+                    />
+                    <WorkCard 
+                        name={'HUNTER COLLEGE'} 
+                        color={'#9D84BA'}
+                        h={264}
+                        loc={'New York, NY'}
+                        dates={'June - Sept. 2017'}
+                        position={'Bioinformatics Research Assistant'}
+                        desc1={'Applied next-generation sequencing to determine single nucleotide polymorphisms in bacteria genomes in order to target contributors to ' +  
+                        'antibiotic resistance; pinpointed 7 mutations using a novel bioinformatics pipeline.'}
+                        desc2={'Wrote a Java program used to detect the impact of nucleotide base changes on resulting amino acids.'}
                     />
                 </div>
             </div>

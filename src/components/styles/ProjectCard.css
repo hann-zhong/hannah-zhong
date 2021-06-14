@@ -8,7 +8,7 @@
     font-size: 22px;
     margin-left: 30px; 
     line-height: 25px;
-    letter-spacing: 3px;
+    font-weight: 400;
 }
 
 a:hover {
@@ -17,6 +17,7 @@ a:hover {
 
 .card {
     padding-top: 20px;
+    border: 2px solid #1C2E43;
 }
 
 
