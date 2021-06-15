@@ -5,7 +5,7 @@ import Image from './fundamentals/Image';
 import './styles/Contact.css';
 import './styles/global.css';
 
-import img from '../assets/placeholder.png';
+import img from '../assets/pan4.png';
 import github from '../assets/github-icon.png';
 import linkedin from '../assets/linkedin-icon.png';
 
@@ -38,7 +38,7 @@ function Contact() : JSX.Element {
                 </div>
                 <Image 
                     url={img} 
-                    alt={'placeholder'}
+                    alt={'panel 4'}
                     l={450} 
                 />
             </div>

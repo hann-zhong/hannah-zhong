@@ -5,7 +5,7 @@ import Image from './fundamentals/Image';
 import './styles/Home.css';
 import './styles/global.css';
 
-import img from '../assets/panel0.jpg';
+import img from '../assets/pan0.png';
 
 function Home(): JSX.Element {
 

@@ -6,7 +6,7 @@ import WorkCard from './fundamentals/WorkCard';
 import './styles/Work.css';
 import './styles/global.css';
 
-import img from '../assets/placeholder.png';
+import img from '../assets/pan2.png';
 
 function Work() : JSX.Element {
 
@@ -22,7 +22,7 @@ function Work() : JSX.Element {
                     />
                     <Image 
                         url={img} 
-                        alt={'placeholder'}
+                        alt={'panel 2'}
                         l={450} 
                     />
                 </div>

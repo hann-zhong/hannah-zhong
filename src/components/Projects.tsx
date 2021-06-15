@@ -6,7 +6,7 @@ import ProjectCard from './fundamentals/ProjectCard';
 import './styles/Projects.css';
 import './styles/global.css';
 
-import img from '../assets/placeholder.png';
+import img from '../assets/pan3.png';
 
 function Projects() : JSX.Element {
 
@@ -23,7 +23,7 @@ function Projects() : JSX.Element {
                     />
                     <Image 
                         url={img} 
-                        alt={'placeholder'}
+                        alt={'panel 3'}
                         l={450} 
                     />
                 </div>
