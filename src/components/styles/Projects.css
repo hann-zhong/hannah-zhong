@@ -1,7 +1,7 @@
 .projBody {
     display: flex;
     flex-direction: column;
-    margin: -100px 0px 350px 200px;
+    margin: -100px 0px 200px 200px;
 }
 
 .grid-container {
