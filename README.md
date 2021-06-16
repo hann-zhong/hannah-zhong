@@ -13,3 +13,4 @@ $ git clone https://github.com/hann-zhong/hannah-zhong.git
 $ cd hannah-zhong
 $ yarn start
 ```
+Go to [localhost:3000](https://localhost:3000).
