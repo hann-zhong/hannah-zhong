@@ -56,7 +56,7 @@ function Projects() : JSX.Element {
                         </div>
                         <div className='grid-item item4'>
                             <ProjectCard
-                                name={'🍔 goober eats'}
+                                name={'🍱 goober eats'}
                                 desc={'Mock food delivery logistics engine that provides point-by-point routing for the Greater Los Angeles area. (C++)'}
                                 color={'#EB9B9B'}
                                 link={'https://github.com/hann-zhong'}
