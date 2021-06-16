@@ -1,4 +1,3 @@
-import React, { useEffect, useState } from 'react';
 import '../styles/ProjectCard.css';
 import '../styles/global.css';
 
