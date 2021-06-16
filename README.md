@@ -12,6 +12,7 @@ Clone and cd into the repo. [Yarn](https://yarnpkg.com/) is my package manager.
 ```
 $ git clone https://github.com/hann-zhong/hannah-zhong.git
 $ cd hannah-zhong
+$ yarn install
 $ yarn start
 ```
 Go to [localhost:3000](https://localhost:3000).
