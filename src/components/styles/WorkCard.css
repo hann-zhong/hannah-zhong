@@ -73,22 +73,23 @@
         flex-direction: column;
         margin-left: 0%;
         margin-right: 5%;
+        padding-top: 10px;
     }
 
     .compBkgd {
-        width: 85vw;
-        margin-left: 12px;
+        width: 80vw;
+        margin-left: 18px;
         margin-right: 12px;
-        margin-bottom: 2.5vw;
+        margin-bottom: 0px;
         padding-bottom: 10px;
         height: 170px;
     }
 
     .compBkgdSm {
-        width: 85vw;
-        margin-left: 12px;
+        width: 80vw;
+        margin-left: 18px;
         margin-right: 12px;
-        margin-bottom: 2.5vw;
+        margin-bottom: 0px;
         padding-bottom: 10px;
         height: 135px;
     }

@@ -56,7 +56,7 @@ function Work() : JSX.Element {
                     />
                     <WorkCard 
                         name={'CUNY HUNTER COLLEGE'} 
-                        color={'#9D84BA'}
+                        color={'#ba96d6'}
                         loc={'New York, NY'}
                         dates={'June - Sept. 2017'}
                         position={'Bioinformatics Research Assistant'}
