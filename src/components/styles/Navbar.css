@@ -7,6 +7,7 @@
     background-color: white;
     padding-bottom: 10px;
 }
+
 .nav-links {
     list-style-type: none;
     display: flex;
@@ -25,4 +26,14 @@
 
 .nav-links a:hover{  
     text-decoration: underline;   
+}
+
+@media screen and (max-width: 600px) {
+    .nav-links {
+        flex: .95;
+        justify-content: space-between;
+        text-align: center;
+        margin-top: 32px;
+        margin-left: -10px;
+    }
 }

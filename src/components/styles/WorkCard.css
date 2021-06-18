@@ -5,7 +5,7 @@
     border-radius: 8px;
     display: flex;
     flex-direction: row;
-    margin-bottom: 34px;
+    margin-bottom: 34px;   
 }
 
 .compBkgd {
@@ -17,6 +17,19 @@
     margin-bottom: 2.5vw;
     display: flex;
     flex-direction: column;
+    height: 250px;
+}
+
+.compBkgdSm {
+    width: 18vw;
+    border-radius: 10px;
+    margin-top: 2.5vw;
+    margin-left: 36px;
+    margin-right: 36px;
+    margin-bottom: 2.5vw;
+    display: flex;
+    flex-direction: column;
+    height: 220px;
 }
 
 .companyName {
@@ -51,4 +64,55 @@
 
 .workDescItems {
     margin-bottom: 8px;
+}
+
+@media screen and (max-width: 600px) {
+    .workBkgd {
+        width: 90vw;
+        display: flex;
+        flex-direction: column;
+        margin-left: 0%;
+        margin-right: 5%;
+    }
+
+    .compBkgd {
+        width: 85vw;
+        margin-left: 12px;
+        margin-right: 12px;
+        margin-bottom: 2.5vw;
+        padding-bottom: 10px;
+        height: 170px;
+    }
+
+    .compBkgdSm {
+        width: 85vw;
+        margin-left: 12px;
+        margin-right: 12px;
+        margin-bottom: 2.5vw;
+        padding-bottom: 10px;
+        height: 135px;
+    }
+
+    .companyName {
+        font-size: 24px;
+        letter-spacing: 5px;
+        font-weight: 300;
+        margin-left: 6%;
+    }
+
+    .workInfo {
+        margin-left: 6%;
+        font-size: 14px; 
+        margin-bottom: 10px;
+    }
+
+    .workDesc {
+        line-height: 22px;
+        width: 80vw;
+        margin-left: 15px;
+    }
+
+    .workCard {
+        margin-bottom: -10px;
+    }
 }

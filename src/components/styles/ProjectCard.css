@@ -20,6 +20,12 @@ a:hover {
     border-radius: 7px;
 }
 
+@media screen and (max-width: 600px) {
+    .card {
+        width: 90vw;
+    }
+}
+
 
 
 

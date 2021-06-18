@@ -51,3 +51,20 @@
 .item2 a {
     color: #F2F2F2;
 }
+
+@media screen and (max-width: 600px) {
+    .projBody {
+        margin: 0px 20px 100px 20px;
+    }
+
+    .grid-container {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .grid-item {
+        font-size: 14px;
+    }
+
+}

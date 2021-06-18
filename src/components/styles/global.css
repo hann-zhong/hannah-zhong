@@ -26,3 +26,13 @@ p {
 a {
     text-decoration: none;
 }
+
+@media screen and (max-width: 600px) {
+    .block {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 100px;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+}

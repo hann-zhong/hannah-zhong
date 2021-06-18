@@ -2,6 +2,7 @@ import React from 'react';
 import Layout from './Layout'
 import Text from './fundamentals/Text';
 import Image from './fundamentals/Image';
+import Icon from './fundamentals/Icon';
 import './styles/Contact.css';
 import './styles/global.css';
 
@@ -21,17 +22,15 @@ function Contact() : JSX.Element {
                     />
                     <div className='about-row'>
                         <a href='https://github.com/hann-zhong' target='blank'>
-                            <Image
+                            <Icon
                                 url={github} 
-                                alt={'placeholder'}
-                                l={48}
+                                alt={'github'}
                             />
                         </a>
                         <a href='https://www.linkedin.com/in/hannah-z-113910191/' target='blank'>
-                            <Image 
+                            <Icon 
                                 url={linkedin} 
-                                alt={'placeholder'} 
-                                l={48}
+                                alt={'linkedin'} 
                             />
                         </a>
                     </div>
@@ -39,7 +38,6 @@ function Contact() : JSX.Element {
                 <Image 
                     url={img} 
                     alt={'panel 4'}
-                    l={450} 
                 />
             </div>
             <hr style={{width: '80vw', marginBottom: '24px'}}></hr>

@@ -17,14 +17,13 @@ function Projects() : JSX.Element {
         <Layout>
             <div id='projects' >
             <div className='block' style={{paddingTop: 64}}>
+                    <Image 
+                        url={img} 
+                        alt={'panel 3'} 
+                    />
                     <Text 
                         heading={'projects.'}
                         text={projectsText} 
-                    />
-                    <Image 
-                        url={img} 
-                        alt={'panel 3'}
-                        l={450} 
                     />
                 </div>
 

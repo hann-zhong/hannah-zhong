@@ -4,3 +4,21 @@
     margin-right: 105px;
     margin-top: 32px;
 }
+
+@media screen and (max-width: 600px) {
+    .text-continer p {
+        font-size: 14px;
+    }
+
+    .text-container h1 {
+        font-size: 48px;
+    }
+
+    .text-container {
+        text-align: center;
+        width: 90vw;
+        margin-left: 6.25%;
+        margin-right: 6.25%;
+        margin-top: 24px;
+    }
+}

@@ -16,3 +16,20 @@
     text-align: center;
     line-height: 12px;
 }
+
+@media screen and (max-width: 600px) {
+    .copy-text {
+        font-size: 11px;
+        text-align: center;
+        line-height: 0px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 20px;
+    }
+
+    .about-col {
+        display: flex;
+        flex-direction: column;
+        margin-right: 0px;
+    }
+}

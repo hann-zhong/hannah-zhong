@@ -4,7 +4,6 @@ import '../styles/global.css';
 interface WorkCardProps {
     name: string
     color: string
-    h: number
     loc: string
     dates: string
     position: string
@@ -13,15 +12,24 @@ interface WorkCardProps {
 }
 
 function WorkCard(props:WorkCardProps) : JSX.Element {
-    const { name, color, h, loc, dates, position, desc1, desc2 } = props;
+    const { name, color, loc, dates, position, desc1, desc2 } = props;
     return (
-        <div style={{height: h+75}} className='workBkgd'>
-            <div style={{backgroundColor: color, height: h}} className='compBkgd'>
+        <div className='workBkgd'>
+            {props.name === 'FIDELITY INVESTMENTS' || props.name === 'CUNY HUNTER COLLEGE' ? 
+            <div style={{backgroundColor: color}} className='compBkgd'>
                     <p className='companyName'>{name}</p>
                     <p className='workInfo'>{loc}</p>
                     <p className='workInfo'>{dates}</p>
 
             </div>
+            :
+            <div style={{backgroundColor: color}} className='compBkgdSm'>
+                    <p className='companyName'>{name}</p>
+                    <p className='workInfo'>{loc}</p>
+                    <p className='workInfo'>{dates}</p>
+
+            </div>
+            }
             <div className='workDesc'>
                 <div className='workCard'>
                     <p>{position}</p>

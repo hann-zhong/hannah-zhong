@@ -6,15 +6,14 @@ import '../styles/global.css'
 interface ImageProps {
   url: string;
   alt: string;
-  l: number
 }
 
 function Image(props:ImageProps) : JSX.Element {
-    const { url, alt, l } = props;
+    const { url, alt } = props;
     
     return (
       <div className='image-container'>
-        <img src={url} alt={alt} width={l} height={l}></img>
+        <img src={url} alt={alt} ></img>
       </div>
     );
 }

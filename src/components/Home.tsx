@@ -22,7 +22,6 @@ function Home(): JSX.Element {
                 <Image 
                     url={img} 
                     alt={'panel 0'} 
-                    l={450}
                 />
             </div>
         </Layout>

@@ -23,24 +23,21 @@ function Work() : JSX.Element {
                     <Image 
                         url={img} 
                         alt={'panel 2'}
-                        l={450} 
                     />
                 </div>
                 <div className='workBody'>
                 <WorkCard 
                         name={'ORACLE'} 
                         color={'#DA8E7F'}
-                        h={230}
                         loc={'Seattle, WA'}
                         dates={'June - Sept. 2021'}
                         position={'Incoming Software Engineer Intern'}
                         desc1={'Oracle Cloud Infrastructure (OCI).'}
-                        desc2={'Come back later!! 😉'}
+                        desc2={'I\'m starting soon! Come back later to see what I\'ve done!! 😉'}
                     />
                     <WorkCard 
                         name={'CHARIPAY'} 
                         color={'#9DE1F0'}
-                        h={230}
                         loc={'Los Angeles, CA'}
                         dates={'Apr. 2020 - May 2021'}
                         position={'Web Developer'}
@@ -51,23 +48,21 @@ function Work() : JSX.Element {
                     <WorkCard 
                         name={'FIDELITY INVESTMENTS'} 
                         color={'#B2CD8C'}
-                        h={264}
                         loc={'Smithfield, RI'}
                         dates={'June - Aug. 2020'}
                         position={'Software Engineer Intern'}
-                        desc1={'Implented RESTful APIs to extract and manipulate relational database information. Modified functions to support additional business logic.'}
+                        desc1={'Implented REST APIs to extract and manipulate relational DB information. Modified functions to support additional business logic.'}
                         desc2={'Wrote service automation scripts and unit tests with 100% code coverage.'}
                     />
                     <WorkCard 
-                        name={'HUNTER COLLEGE'} 
+                        name={'CUNY HUNTER COLLEGE'} 
                         color={'#9D84BA'}
-                        h={264}
                         loc={'New York, NY'}
                         dates={'June - Sept. 2017'}
                         position={'Bioinformatics Research Assistant'}
-                        desc1={'Applied next-generation sequencing to determine single nucleotide polymorphisms in bacteria genomes in order to target contributors to ' +  
-                        'antibiotic resistance; pinpointed 7 mutations using a novel bioinformatics pipeline.'}
-                        desc2={'Wrote a Java program used to detect the impact of nucleotide base changes on resulting amino acids.'}
+                        desc1={'Identified SNPs in bacteria genomes that contribute to ' +  
+                        'antibiotic resistance; pinpointed 7 mutations.'}
+                        desc2={'Wrote a program to detect the impact of nucleotide changes on resulting amino acids.'}
                     />
                 </div>
             </div>
