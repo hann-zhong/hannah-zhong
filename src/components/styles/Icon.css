@@ -1,9 +1,16 @@
 .icon-container {
-    margin-left: 28px;
+    margin-left: 24px;
     margin-right: 28px;
 }
 
 img {
     width: 64px;
     height: 64px;
+}
+
+@media screen and (max-width: 600px) {
+    .icon-container {
+        margin-left: 20px;
+        margin-right: 28px;
+    }
 }
