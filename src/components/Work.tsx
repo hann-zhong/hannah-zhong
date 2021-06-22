@@ -31,9 +31,9 @@ function Work() : JSX.Element {
                         color={'#DA8E7F'}
                         loc={'Seattle, WA'}
                         dates={'June - Sept. 2021'}
-                        position={'Incoming Software Engineer Intern'}
+                        position={'Software Engineer Intern'}
                         desc1={'Oracle Cloud Infrastructure (OCI).'}
-                        desc2={'I\'m starting soon! Come back later to see what I\'ve done!! 😉'}
+                        desc2={'I\'m still a newbie! Come back later to see what I\'ve done!! 😉'}
                     />
                     <WorkCard 
                         name={'CHARIPAY'} 
