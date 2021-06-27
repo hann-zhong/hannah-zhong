@@ -44,7 +44,13 @@
 }
 .item5 {
     grid-row: 3;
-    grid-column: 1 / span 4;
+    grid-column: 1 / span 2;
+    color: #1C2E43;
+}
+
+.item6 {
+    grid-row: 3;
+    grid-column: 3 / span 2;
     color: #1C2E43;
 }
 

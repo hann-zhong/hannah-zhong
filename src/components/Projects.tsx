@@ -40,7 +40,7 @@ function Projects() : JSX.Element {
                         <div className='grid-item item2'>
                             <ProjectCard
                                 name={'🚀 a galaxy far, far away↗︎'}
-                                desc={'Pilot your own starship and explore a fantasy solar system! (JavaScript)'}
+                                desc={'The Force is strong with you. Pilot your own starship and explore a 3D fantasy solar system! (JavaScript)'}
                                 color={'#414C72'}
                                 link={'https://github.com/hann-zhong/a-galaxy-far-far-away'}
                             />
@@ -68,6 +68,14 @@ function Projects() : JSX.Element {
                                     ' or if it results in a different amino acid. (Java)'}
                                 color={'#9DE9E3'}
                                 link={'https://github.com/hann-zhong/snp-analyzer'}
+                            />
+                        </div>
+                        <div className='grid-item item6'>
+                            <ProjectCard
+                                name={'🎨 sketch↗︎'}
+                                desc={'Simple sketchpad application that allows you to draw and pick colors with a click of the mouse. (Java)'}
+                                color={'#c8e3b1'}
+                                link={'https://github.com/hann-zhong/sketchpad'}
                             />
                         </div>
                     </div>
