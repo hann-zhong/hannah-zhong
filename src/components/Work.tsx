@@ -30,7 +30,7 @@ function Work() : JSX.Element {
                         name={'ORACLE'} 
                         color={'#DA8E7F'}
                         loc={'Seattle, WA'}
-                        dates={'June - Sept. 2021'}
+                        dates={'Summer 2021'}
                         position={'Software Engineer Intern'}
                         desc1={'Oracle Cloud Infrastructure (OCI).'}
                         desc2={'I\'m still a newbie! Come back later to see what I\'ve done!! 😉'}
@@ -39,7 +39,7 @@ function Work() : JSX.Element {
                         name={'CHARIPAY'} 
                         color={'#9DE1F0'}
                         loc={'Los Angeles, CA'}
-                        dates={'Apr. 2020 - May 2021'}
+                        dates={'Spring 2020 - Summer 2021'}
                         position={'Web Developer'}
                         desc1={'Helped to create frontend for COVID-19 donation portal, which faciliated the distribution of 200K+ PPE.'}
                         desc2={'Developed responsive pages for company website based on Figma wireframes in React;' + 
@@ -49,7 +49,7 @@ function Work() : JSX.Element {
                         name={'FIDELITY INVESTMENTS'} 
                         color={'#B2CD8C'}
                         loc={'Smithfield, RI'}
-                        dates={'June - Aug. 2020'}
+                        dates={'Summer 2020'}
                         position={'Software Engineer Intern'}
                         desc1={'Implented REST APIs to extract and manipulate relational DB information. Modified functions to support additional business logic.'}
                         desc2={'Wrote service automation scripts and unit tests with 100% code coverage.'}
@@ -58,7 +58,7 @@ function Work() : JSX.Element {
                         name={'CUNY HUNTER COLLEGE'} 
                         color={'#ba96d6'}
                         loc={'New York, NY'}
-                        dates={'June - Sept. 2017'}
+                        dates={'Summer 2017'}
                         position={'Bioinformatics Research Assistant'}
                         desc1={'Identified SNPs in bacteria genomes that contribute to ' +  
                         'antibiotic resistance; pinpointed 7 mutations.'}
