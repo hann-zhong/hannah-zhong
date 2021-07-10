@@ -64,7 +64,13 @@ function Work() : JSX.Element {
                         'antibiotic resistance; pinpointed 7 mutations.'}
                         desc2={'Wrote a program to detect the impact of nucleotide changes on resulting amino acids.'}
                     />
-                </div>
+                    <p className='extra'>Some other things: I'm on the technical board of&nbsp; 
+                        <a href="https://www.creativelabsucla.com/">Creative Labs↗︎</a>, UCLA's digital design community,
+                        where I develop cool internal tools and help the club run smoothly. Also, I built an autonomous rover
+                        that could navigate an obstacle course and pick up objects for 
+                        <a href="https://samueli.ucla.edu/makerspace/"> UCLA Makerspace↗︎</a>.
+                    </p>
+                </div>          
             </div>
         </Layout>
     );

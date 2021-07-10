@@ -1,7 +1,17 @@
 .workBody {
     display: flex;
     flex-direction: column;
-    margin: -100px 0px 150px 100px;
+    margin: -100px 0px 200px 100px;
+}
+
+.extra {
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.extra a {
+    color: #1C2E43;
+    font-weight: 600;
 }
 
 @media screen and (max-width: 600px) {
@@ -9,5 +19,11 @@
         margin-left: 6.25%;
         margin-top: 20px;
         margin-bottom: 50px;
+    }
+
+    .extra {
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 40px;
     }
 }
