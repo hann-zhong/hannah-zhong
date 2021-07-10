@@ -41,7 +41,7 @@ function Work() : JSX.Element {
                         loc={'Los Angeles, CA'}
                         dates={'Spring 2020 - Summer 2021'}
                         position={'Web Developer'}
-                        desc1={'Helped to create frontend for COVID-19 donation portal, which faciliated the distribution of 200K+ PPE.'}
+                        desc1={'Helped to create frontend for COVID-19 donation portal, which faciliated the distribution of 425K+ PPE, valued at $1.2M+.'}
                         desc2={'Developed responsive pages for company website based on Figma wireframes in React;' + 
                             ' wrote scripts for a confirmation email service.'}
                     />
