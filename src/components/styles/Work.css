@@ -6,12 +6,26 @@
 
 .extra {
     margin-left: 200px;
-    margin-right: 200px;
+    margin-right: 240px;
 }
 
 .extra a {
-    color: #1C2E43;
+    color: #124c8f;
     font-weight: 600;
+    background:
+        linear-gradient(
+            to bottom, #ffe285 0%,
+            #ffe285 100%
+        );
+    background-position: 0 100%;
+    background-repeat: repeat-x;
+    background-size: 3px 3px;
+    text-decoration: none;
+    transition: background-size .2s;
+}
+
+.extra a:hover {
+    background-size: 3px 50px;
 }
 
 @media screen and (max-width: 600px) {
